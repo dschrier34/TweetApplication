@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+#content {
+    margin-top: 40px;
+}
+
+.remove-tweet,
+.remove-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.rows {
+    max-width: 1400px;
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    justify-content: space-around;    
+}
+
+/* .two-columns {
+    border: 1px solid black;
+} */
+.button {
+    background-color: rgb(0, 153, 255);
+    position: relative;
+    border: none;
+    color: white;
+    padding: 8px 42px;
+
+}
+.tweet-list {
+    padding: 35px 125px;
+}
+
+.full-width, .tweet-list {
+    width: 400px;
+    height: 150px;
+    text-align: left;
+}
+
+.two-columns {
+    position:relative;
+}
+/* .tweet {
+    text-align: left;
+} */
